@@ -1,0 +1,81 @@
+<!--html file for  CSC102
+Assignment: Launching your UAT Space Program HTML Document Tags
+written by Bryan Arnold
+email: bryan.arnold1925@gmail.com-->
+<!DOCTYPE html>
+<!--html tag for assignment-->
+<html>
+<!--head tag for assignment-->
+
+<head>
+    <!--the title goes at the title bar-->
+    <title>
+        Bryan Arnold's UAT Space Page
+    </title>
+    <script>
+        //alert function as required by assignment.
+        var alertText = "Test of the alert function"
+            //alert(alertText);
+    </script>
+    <script src="code.js"></script>
+    <style>
+        body {
+            background-color: rebeccapurple;
+            color: white;
+
+        }
+    </style>
+</head>
+<!--body tag for as required by assignment-->
+
+<body>
+    <!--This is where the image we are using will be place at-->
+    <!--logo for UATSpace-->
+    <img src="UATspaceLogo-1.jpeg">
+    <!--fulfils header requirement-->
+    <h1>H1 Sample Text</h1>
+    <!--paragraph tag for the assignment-->
+    <p>
+        <!--I have a font change below just for character.-->
+        <span style="font-family: Lucida Handwriting, Brush Script MT, cursive;">This is a test of the paragraph
+            tag.</span> <br>
+        It is usually meant for more than one line of text.
+        That is why they call it a paragragh tag.
+    </p>
+    <script>
+        //one line comment
+        //created a textValue comment
+        var textvalue = "Test of the document.write() function";
+        //use that textValue comment
+        document.write(textvalue);
+        /*multiline
+        comment*/
+    </script>
+    <br>
+    <br>
+    <br>
+    
+    Time left before launch:<br>
+    <!--This is where we will install the start and stop button.-->
+    <div id="countdownDisplay">Launch not initiated</div>
+    <br>
+    <!--button requirements from assignment-->
+    <button onclick="blastoffTimerV1();">Start</button>
+    <!--Stop button-->
+    <button>Stop</button>
+    <br>
+    <br>
+    <!--Here is the input for the craps game!! Good luck and may the odds ever be in your favor!!!-->
+    <h2>Craps Game!!</h2>
+    <h3> Please Play!</h3>
+    Die 1 result: <div id="die1Res">Press Play Craps to roll dice</div><br>
+    Die 2 result: <div id="die2Res">Press Play Craps to roll dice</div><br>
+    Game Results: <div id="crapsRes"></div>
+    <br>
+    <br>
+    <!--Button to play craps-->
+    <button onclick="playCraps();">GameResults</button>
+
+</body>
+
+</html>
